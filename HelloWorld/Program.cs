@@ -19,9 +19,12 @@ namespace HelloWorld
             Console.WriteLine("*************************************");
             Console.BackgroundColor = ConsoleColor.Black;
 
-            // Display a Car name on screen
-
-            Console.WriteLine("Hello World");
+           
+            // Creating a new car using the SportsCar class
+            SportsCar mycar = new SportsCar();
+             
+            // Display the car name on screen
+            Console.WriteLine(mycar.GetPetName());
             
             // Wait for Enter key to be pressed.
             Console.ReadLine();
